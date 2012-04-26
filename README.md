@@ -5,7 +5,7 @@
 var asyngleton = require('../'),
 fs = require('fs');
 
-
+//called ONCE
 var readDir = asyngleton(function(callback) {
 	fs.readdir(__dirname, callback);
 })
