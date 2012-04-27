@@ -22,3 +22,14 @@ setTimeout(function() {
 		console.log("RESULT 3")
 	})
 }, 500);
+
+
+
+var readDirSync = asyngleton(function(callback) {
+	console.log("READ DIR SYNC")
+	return fs.readdirSync(__dirname);
+});
+
+
+console.log(readDirSync());
+console.log(readDirSync());

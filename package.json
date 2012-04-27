@@ -1,13 +1,15 @@
 {
-  "author": "Craig Condon",
-  "name": "asyngleton",
-  "description": "asynchronously generate singletons",
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/crcn/asyngleton.js.git"
-  },
-  "main": "./lib/index.js",
-  "dependencies": {},
-  "devDependencies": {}
+    "author": "Craig Condon",
+    "name": "asyngleton",
+    "description": "asynchronously generate singletons",
+    "version": "0.0.2",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/crcn/asyngleton.js.git"
+    },
+    "main": "./lib/index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "structr": "*"
+    }
 }
