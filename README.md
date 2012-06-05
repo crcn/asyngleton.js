@@ -84,3 +84,35 @@ readLibDir(function(err, files) {
 
 - `name` - the name of the singleton in the dictionary
 - `factory` - the factory method incase the singleton doesn't exist
+
+
+### [Structr](/crcn/structr) Integration
+
+
+```javascript
+
+var structr = require("structr");
+structr.mixin(require("asyngleton"));
+
+
+var TestClass = structr({
+		
+	/**
+	 */
+
+	"singleton load": function(onLoad) {
+		fs.readFile(__dirname + "/config.json", onLoad);
+	}
+});
+```
+
+var test = new TestClass();
+
+test.load(function(config) {
+	
+});
+
+//fs.readFile is NOT called again at this point
+test.load(function(config) {
+	
+});
