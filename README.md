@@ -86,7 +86,7 @@ readLibDir(function(err, files) {
 - `factory` - the factory method incase the singleton doesn't exist
 
 
-### [Structr](/crcn/structr) Integration
+### [Structr](/crcn/structr.js) Integration
 
 
 ```javascript
