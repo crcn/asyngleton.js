@@ -104,7 +104,6 @@ var TestClass = structr({
 		fs.readFile(__dirname + "/config.json", onLoad);
 	}
 });
-```
 
 var test = new TestClass();
 
