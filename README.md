@@ -116,3 +116,4 @@ test.load(function(config) {
 test.load(function(config) {
 	
 });
+```
