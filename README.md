@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/crcn/asyngleton.js.png)](http://travis-ci.org/crcn/asyngleton.js)
 ### Example
 
 ```javascript
