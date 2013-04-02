@@ -8,8 +8,11 @@
         "url": "git://github.com/crcn/asyngleton.js.git"
     },
     "main": "./lib/index.js",
-    "dependencies": {},
+    "dependencies": {
+    },
     "devDependencies": {
-        "structr": "*"
+        "structr": "*",
+        "expect.js": "0.2.x",
+        "mocha": "1.8.x"
     }
 }
